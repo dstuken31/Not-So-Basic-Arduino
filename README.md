@@ -20,4 +20,16 @@ In Hello Functions we used the Ultrasonic Sensor to see if there is anything wit
 * Void Loops https://www.arduino.cc/reference/en/language/variables/data-types/void/
 
 
+## New Ping 
 
+### Description 
+
+In New Ping we were to use the New ping library to do a certian task with the ultrsonic sensor.
+
+### What I Learned 
+
+* How to use the New Ping Library*
+
+### Notes 
+
+* New Ping https://playground.arduino.cc/Code/NewPing/
