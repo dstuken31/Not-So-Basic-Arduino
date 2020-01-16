@@ -4,9 +4,8 @@
 #define MAX_DISTANCE 200
 NewPing myHCSR04(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
 int ledPin = 9;
-int dash;
-int x;
-// Used this as a variable
+int dash; // dashes are used to visualise the brightness of led fades
+
 #include <Servo.h>
 // Pins are different with ultrasound. They are changed to constant integers, as opposed to normal integers.
 const int trigPin = 11;
@@ -14,6 +13,7 @@ const int echoPin = 12;
 long duration;
 int cm; 
 // Defines cm as the measure of distance
+
 Servo myServo;
 int servoPin = 10;
 int sensor();
@@ -31,7 +31,7 @@ void loop()
 	Serial.println(myHCSR04.ping_cm());
 	delay(50);
 	cm = sensor();
-	if (cm < 5)
+	if (cm < 5)  // when objects are close DYLAN WRITE YOUR OWN COMMENTS.
 	{
 		LEDBlinkRevisited();
 		moveServoFast();
@@ -75,7 +75,7 @@ void LEDOff()
 {
 	digitalWrite(9, LOW);
 }
-int sensor(){
+int sensor(){  //this function uses the HCSR04 to return a distance in centimeters
 	int distance = 0;
 	digitalWrite(trigPin, HIGH);
 	delayMicroseconds(10);
