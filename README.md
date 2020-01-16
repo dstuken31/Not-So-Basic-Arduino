@@ -25,6 +25,11 @@ Functions are incredibly helpful in code.  They consilidate your code and make i
 
 ## New Ping 
 
+### Image 
+
+![wiring diagram](http://wiki.chssigma.com/images/5/50/Ultrasonic_Sensor_with_Servo.PNG)
+Credit: Imogen A. [CHS Sigma Wiki](http://wiki.chssigma.com/index.php?title=Imogen%27s_Engineering_2_Notebook#Wiring_.26_Pictures)
+
 ### Description 
 
 In New Ping we were to use the New ping library to do a certian task with the ultrsonic sensor. In my code I had the Ultrasonic sensor send out and depending on the distance it would do different actions.  If the distance was greater than 10 cm The servo would move.  If the distance was less than 5 cm the servo would move faster and the LED would fade in and out.  Finally, if the distance was between 5 and 10 cm everything would stop.
