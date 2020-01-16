@@ -2,14 +2,15 @@
 
 ## Hello_Functions
 
-### Description 
-
-In Hello Functions we used the Ultrasonic Sensor to see if there is anything within a certian distance, and if so the servo would move.  Also if they were closer than an even shorter distance, it would move faster. The objective of his project was to use functions for the first time.
 
 ### Wiring 
 
 ![Hello_Functions](http://wiki.chssigma.com/images/5/50/Ultrasonic_Sensor_with_Servo.PNG)
 ** This came from DeShawna's engineering notebook (on the CHS wiki)
+
+### Description 
+
+In Hello Functions we used the Ultrasonic Sensor to see if there is anything within a certian distance, and if so the servo would move.  Also if they were closer than an even shorter distance, it would move faster. The objective of his project was to use functions for the first time.
 
 ### Lessons Learned
 
