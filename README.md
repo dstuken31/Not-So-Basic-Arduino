@@ -11,7 +11,7 @@ In Hello Functions we used the Ultrasonic Sensor to see if there is anything wit
 ![Hello_Functions](http://wiki.chssigma.com/images/5/50/Ultrasonic_Sensor_with_Servo.PNG)
 ** This came from DeShawna's engineering notebook (on the CHS wiki)
 
-### What I Learned
+### Lessons Learned
 
 *  How to use Void Loops* 
 *  How to use Functions** 
@@ -21,19 +21,20 @@ In Hello Functions we used the Ultrasonic Sensor to see if there is anything wit
 ### Notes 
 
 * Void Loops https://www.arduino.cc/reference/en/language/variables/data-types/void/
-* Functions https://www.arduino.cc/en/Reference/FunctionDeclaration  
+* 
 
 
 ## New Ping 
 
 ### Description 
 
-In New Ping we were to use the New ping library to do a certian task with the ultrsonic sensor.
+In New Ping we were to use the New ping library to do a certian task with the ultrsonic sensor. In my code I had the Ultrasonic sensor send out and depending on the distance it would do different actions.  If the distance was greater than 10 cm The servo would move.  If the distance was less than 5 cm the servo would move faster and the LED would fade in and out.  Finally, if the distance was between 5 and 10 cm everything would stop.
 
-### What I Learned 
+### Lessons Learned 
 
+I didn't understand how to use new ping. Looking at the CHS Sigma wiki as well as watching the video below helped me get a better understanding of new ping.  
 * How to use the New Ping Library* 
-* This video is helpful (https://www.youtube.com/watch?v=chPyOf231zE)
+* This video is helpful to see new ping in action (https://www.youtube.com/watch?v=chPyOf231zE)
 
 ### Notes 
 
