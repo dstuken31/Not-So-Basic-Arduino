@@ -4,7 +4,7 @@
 
 ### Description 
 
-In Hello Functions we used the Ultrasonic Sensor to see if there is anything within a certian distance, and if so the servo would move.  Also if they were closer than an even shorter distance, it would move faster.
+In Hello Functions we used the Ultrasonic Sensor to see if there is anything within a certian distance, and if so the servo would move.  Also if they were closer than an even shorter distance, it would move faster. The objective of his project was to use functions for the first time.
 
 ### Wiring 
 
@@ -13,11 +13,15 @@ In Hello Functions we used the Ultrasonic Sensor to see if there is anything wit
 
 ### What I Learned
 
-*  How to use Void Loops*
+*  How to use Void Loops* 
+*  How to use Functions** 
+*  his line of code is your savior (distance = (duration/2) *0.034/2;) 
+*  This Video Really Helped me (https://www.youtube.com/watch?v=ZejQOX69K5M&t=152s)
 
 ### Notes 
 
 * Void Loops https://www.arduino.cc/reference/en/language/variables/data-types/void/
+* Functions https://www.arduino.cc/en/Reference/FunctionDeclaration  
 
 
 ## New Ping 
@@ -28,7 +32,8 @@ In New Ping we were to use the New ping library to do a certian task with the ul
 
 ### What I Learned 
 
-* How to use the New Ping Library*
+* How to use the New Ping Library* 
+* This video is helpful (https://www.youtube.com/watch?v=chPyOf231zE)
 
 ### Notes 
 
