@@ -13,6 +13,7 @@ In Hello Functions we used the Ultrasonic Sensor to see if there is anything wit
 
 ### Lessons Learned
 
+Functions are incredibly helpful in code.  They consilidate your code and make it more readible.  When in doubt look at the CHS Sigma Wiki.  It help develop my understanding of functions in code.  
 *  How to use Void Loops* 
 *  How to use Functions** 
 *  his line of code is your savior (distance = (duration/2) *0.034/2;) 
@@ -21,8 +22,6 @@ In Hello Functions we used the Ultrasonic Sensor to see if there is anything wit
 ### Notes 
 
 * Void Loops https://www.arduino.cc/reference/en/language/variables/data-types/void/
-* 
-
 
 ## New Ping 
 
