@@ -6,12 +6,14 @@ NewPing myHCSR04(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
 int ledPin = 9;
 int dash;
 int x;
+// Used this as a variable
 #include <Servo.h>
 // Pins are different with ultrasound. They are changed to constant integers, as opposed to normal integers.
 const int trigPin = 11;
 const int echoPin = 12;
 long duration;
-int cm;
+int cm; 
+// Defines cm as the measure of distance
 Servo myServo;
 int servoPin = 10;
 int sensor();
@@ -93,15 +95,17 @@ int sensor(){
 
 void moveServo(){
 	myServo.write(130);
-	// Gets the servo to move when the distance is 9 cm or lower
+	// Gets the servo to move when the distance is 10 cm or greater
+	// Turns off LED
 }
 
 void moveServoFast(){
-	myServo.write(180);
+	myServo.write(180); 
+	// The servo moves even faster if the distance is 5 cm or less
 }
 
 void stopServo(){
 	myServo.write(90);
-	// Stops the servo when the distance is 10 or greater
+	// Stops the servo when the distance is between 5 and 10 cm 
 }
  
