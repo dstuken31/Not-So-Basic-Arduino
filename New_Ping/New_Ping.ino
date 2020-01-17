@@ -31,18 +31,18 @@ void loop()
 	Serial.println(myHCSR04.ping_cm());
 	delay(50);
 	cm = sensor();
-	if (cm < 5)  // when objects are close DYLAN WRITE YOUR OWN COMMENTS.
+	if (cm < 5)  // when objects are close start the LEDBlinkRevisited code as well as the moveServoFast Void Loop (servo at 180).
 	{
 		LEDBlinkRevisited();
 		moveServoFast();
 	}
 	else
-		if (cm > 10)
+		if (cm > 10) // If the distance is greater than ten Turn off the LED and move the servo slower (servo at 130).
 		{
 			LEDOff();
 			moveServo();
 		}
-	else
+	else // when neither of the other parts of the code are true then stop the servo
 	{
 		stopServo();
 	}
