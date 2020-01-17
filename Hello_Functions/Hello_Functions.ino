@@ -1,3 +1,8 @@
+// Hello Functions 
+// Dylan Stukenberg
+// This line of code is your savior when you need to calculate distance against the speed of sound. (distance = (duration/2) *0.034/2;)
+// This Video Really Helped me Understand how the Ultrasonic Sensor works (https://www.youtube.com/watch?v=ZejQOX69K5M&t=152s)
+
 #include<Servo.h>
 //Pins are different with ultrasound. They are changed to constant integers, as opposed to normal integers.
 const int trigPin = 11;
